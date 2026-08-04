@@ -123,7 +123,7 @@ def admin_break():
     if API_KEY and request.headers.get("X-API-Key") != API_KEY:
         return jsonify({"error": "auth required"}), 401
     HEALTH_FILE.unlink(missing_ok=True)
-    return "healthz will now fail until the container restarts\n", 200
+    return "healthz will  until the container restarts\n", 200
 
 
 @app.get("/")

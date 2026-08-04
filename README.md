@@ -40,4 +40,3 @@ curl localhost:8080/          # the greeting
 curl localhost:8080/healthz   # ok
 curl localhost:8080/ready     # ready
 ```
-<!-- TEST -->
